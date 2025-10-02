@@ -1,0 +1,22 @@
+<html lang="ko" xmlns:th="http://www.thymeleaf.org"
+      xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout">
+<head>
+    <meta charset="UTF-8">
+    <title layout:title-template="My App - %s">My App</title>
+    <th:block layout:fragment="css"></th:block>
+</head>
+<body>
+    <!-- header -->
+    <header th:replace="~{fragments/header :: headerFragment}"></header>
+
+    <!-- main -->
+    <main>
+        <div layout:fragment="content">
+            </div>
+    </main>
+
+    <footer th:replace="~{fragments/footer :: footerFragment}"></footer>
+
+    <th:block layout:fragment="script"></th:block>
+</body>
+</html>
