@@ -1,0 +1,14 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-DemoThymeleafReactApplication<demo-thymeleaf-react>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "dev.ohhoonim.demo_thymeleaf_react.DemoThymeleafReactApplication",
+            "projectName": "demo-thymeleaf-react",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}
