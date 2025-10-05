@@ -7,5 +7,10 @@
             "cmd": "cd ${workspaceRoot}; ./gradlew processResources",
             "event": "onFileChange"
         },
+        {
+            "match": "\\.css",
+            "cmd": "cd ${workspaceRoot}; ./gradlew processResources",
+            "event": "onFileChange"
+        },
     ]
 }
