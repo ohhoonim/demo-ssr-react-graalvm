@@ -2,11 +2,11 @@
     "configurations": [
         {
             "type": "java",
-            "name": "Spring Boot-DemoThymeleafReactApplication<demo-thymeleaf-react>",
+            "name": "Spring Boot-DemoSsrReactGraalvmApplication<demo-ssr-react-graalvm>",
             "request": "launch",
             "cwd": "${workspaceFolder}",
-            "mainClass": "dev.ohhoonim.demo_thymeleaf_react.DemoThymeleafReactApplication",
-            "projectName": "demo-thymeleaf-react",
+            "mainClass": "dev.ohhoonim.demo_ssr_react_graalvm.DemoSsrReactGraalvmApplication",
+            "projectName": "demo-ssr-react-graalvm",
             "args": "",
             "envFile": "${workspaceFolder}/.env"
         }

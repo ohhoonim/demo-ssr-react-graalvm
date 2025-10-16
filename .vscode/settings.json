@@ -1,16 +1,4 @@
 {
-    "java.compile.nullAnalysis.mode": "automatic",
-    "java.configuration.updateBuildConfiguration": "automatic",
-    "filewatcher.commands": [
-        {
-            "match": "\\.html",
-            "cmd": "cd ${workspaceRoot}; ./gradlew processResources",
-            "event": "onFileChange"
-        },
-        {
-            "match": "\\.css",
-            "cmd": "cd ${workspaceRoot}; ./gradlew processResources",
-            "event": "onFileChange"
-        },
-    ]
+    "java.compile.nullAnalysis.mode": "disabled",
+    "java.configuration.updateBuildConfiguration": "automatic"
 }

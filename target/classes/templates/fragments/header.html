@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<div th:fragment="headerFragment">
+    <nav>
+        <a href="/">My App</a>
+        <div id="navbarNav">
+            <ul>
+                <li>
+                    <a th:href="@{/login}">로그인</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+</div>
+
+</html>
